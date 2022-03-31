@@ -11,7 +11,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 //@ComponentScans({ @ComponentScan("com.alightmea.userms.controller")})
 //@EnableJpaRepositories("com.alightmea.userms.repository")
 //@EntityScan("com.alightmea.userms.entities")
-@ComponentScan({"com.alightmea.userms.controller", "com.alightmea.userms.repository", "com.alightmea.userms.entities", "com.alightmea.userms.services"})
+@ComponentScan({"com.alightmea.userms.controller", "com.alightmea.userms.repository", "com.alightmea.userms.entities", "com.alightmea.userms.services","com.alightmea.userms.config"})
 public class UserMsApplication {
 
     public static void main(String[] args) {

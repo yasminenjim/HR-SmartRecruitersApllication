@@ -17,11 +17,11 @@ public class Appointment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int meetingID;
-    @Column(name = "URL", nullable = false)
+    @Column(name = "URL")
     private String url;
-    @Column(name = "DATE", nullable = false)
+    @Column(name = "DATE")
     private String date;
-    @Column(name = "NOTE", nullable = false)
+    @Column(name = "NOTE")
     private String note;
 
 }
